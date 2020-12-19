@@ -54,7 +54,7 @@ function saveData(request, response) {
 
 // API
 const apiKey = '4fc2583462f44a139ea675c8953eafa4'    //process.env.API_KEY   (IDK for some reason it gives me undifined result if used dotenv)
-const baseUrl = `https://api.meaningcloud.com/summarization-1.0?sentences=3&key=${apiKey}`
+const baseUrl = `https://api.meaningcloud.com/summarization-1.0?sentences=5&key=${apiKey}`
 
 theBaseUrl = { key: baseUrl }
 
